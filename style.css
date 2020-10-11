@@ -1,0 +1,201 @@
+body {
+  background-color: black;
+}
+/* Control the top side */
+.container {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+
+}
+
+.page1Container {
+  top:5vw;
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.page1TextTopLeft {
+  font-family: arial;
+  padding-left: 2vw;
+  position: absolute;
+  top: 14vw;
+  left: 4vw;
+  font-size: 16px;
+  font-size: 1.2vw;
+  border-left: 0.5vw solid #399ffe;
+}
+.page1Image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.h1 {
+  text-shadow: 4px 4px 10px #417373;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 5%;
+  height: 4vw;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-size: 1.4vw;
+}
+
+.topnav a:hover {
+  background-color: #4aaec7;
+  color: black;
+}
+/* Split the screen in half */
+
+/* Control the top side */
+.top {
+  position: absolute;
+  top: 4vw;
+  left: 0;
+  background-color: black;
+  height: 40vw;
+  width: 100%;
+}
+/* Style the image inside the centered container, if needed */
+
+.topImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+.split {
+  top:34.5vw;
+  height: 30vw;
+  width: 100%;
+}
+.left{
+  left: 0;
+  float: left;
+  position:relative;
+  width:60%;
+}
+.right{
+   float: right;
+  right:0;
+  width:40%;
+  position:relative;
+}
+.rightImage {
+  width: 100%;
+  height: 100%;
+}
+.centered {
+  color:white;
+  font-family: arial;
+  padding: 2vw;
+  position: absolute;
+  font-size: 16px;
+  font-size: 1.2vw;
+}
+
+
+
+
+.section3 {
+  padding-left: 10%;
+  padding-bottom: 60px;
+  padding-right: 10%;
+  font-family: arial;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  font-size: 1.2vw;
+}
+
+.workExperience {
+  padding-top: 5%;
+  text-align: center;
+  width:80vw;
+  border-bottom: 6px solid #399ffe;
+}
+.navWork h2 {
+  width:80vw;
+  background-color:#4aaec7;
+  color: black;
+}
+.navWork h2:hover {
+  background-color: #1c544e;
+  color: white;
+}
+.subHeading {
+  background-color: #1b2423;
+}
+.container3 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+}
+.b2 {
+  border-bottom: 1px solid #399ffe;
+}
+hr.thin {
+  height: 4px;
+  border: 0;
+  color: #333;
+  background-color: #333;
+  width: 60%;
+}
+hr.subThin {
+  margin-left: 0;
+  width: 30%;
+  height: 2px;
+  background-color: #006965;
+}
+
+
+/* Tooltip text */
+.navWork .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2e2e2e;
+  color:white ;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.navWork:hover .tooltiptext {
+  visibility: visible;}
+
+
+/* Tooltip text */
+.projects .tooltiptextprojects {
+  visibility: hidden;
+  width: 120px;
+  background-color: #2e2e2e;
+  color:white ;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.projects:hover .tooltiptextprojects {
+  visibility: visible;}
